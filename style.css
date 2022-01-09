@@ -252,6 +252,7 @@
             font-size: 12px;
             font-weight: bold;
             border: hsl(26, 100%, 55%);
+            cursor: pointer;
         }
         
         .add-to-chart svg {
