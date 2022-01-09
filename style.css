@@ -137,3 +137,7 @@ nav .nav-right a img.frame {
     padding-bottom: 5px;
     border-radius: 10px;
 }
+
+.tittle {
+    color: orange(25, 100%, 94%);
+}
