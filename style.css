@@ -1,143 +1,260 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: rgb(255, 255, 255);
-}
-
-nav {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    height: 10vh;
-    border-bottom: 2px solid rgb(245, 235, 235);
-}
-
-nav div {
-    display: flex;
-    align-items: center;
-    flex: 50%;
-}
-
-nav div.nav-left {
-    padding-left: 90px;
-    /* border: 2px solid black; */
-    text-decoration: none;
-}
-
-nav div.nav-left a {
-    text-decoration: none;
-}
-
-nav div.nav-right {
-    padding-right: 25px;
-    display: flex;
-    justify-content: flex-end;
-    /* border: 2px solid black; */
-}
-
-nav ul {
-    list-style: none;
-    margin-left: 10px;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 10px;
-}
-
-nav ul li a {
-    color: #000000;
-    text-decoration: none;
-    padding-left: 0px;
-}
-
-nav .nav-right a {
-    text-decoration: none;
-    padding: 0 10px;
-}
-
-nav .nav-right a img {
-    width: 15px;
-    height: 25px;
-}
-
-nav .nav-right a img.frame1 {
-    width: 25px;
-    height: 25px;
-    background-color: rgb(252, 252, 252);
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 100%;
-}
-
-nav .nav-right a img.frame {
-    width: 35px;
-    height: 35px;
-    background-color: rgb(252, 252, 252);
-    border: 2px solid hsl(26, 100%, 55%);
-    border-radius: 100%;
-}
-
-.container {
-    height: 80vh;
-    display: flex;
-    font-family: 'Open Sans', 'sans-serif,Lobster', 'cursive';
-    align-items: center;
-    justify-content: center;
-    padding: 3rem 0;
-}
-
-.container .section {
-    display: flex;
-    width: 100%;
-}
-
-.container .section .menu-left {
-    display: flex;
-    width: 40%;
-    height: 430px;
-}
-
-.container .section .menu-right {
-    width: 60%;
-    margin: 25px 0 0 90px;
-    /* margin-left: 90px; */
-}
-
-.section .display {
-    width: 85%;
-    margin-left: 80px;
-    align-items: center;
-    justify-content: center;
-}
-
-.display .galery {
-    display: flex;
-    justify-content: center;
-}
-
-.display .galery img {
-    width: 100%;
-    height: 65vh;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-.display .galery1 {
-    display: flex;
-    justify-content: center;
-    padding: 0 10px;
-}
-
-.display .galery1 img {
-    width: 89px;
-    margin: 0 10px;
-    padding-bottom: 5px;
-    border-radius: 10px;
-}
-
-.tittle {
-    color: orange(25, 100%, 94%);
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Island Moments', cursive;
+            font-family: 'Mali', cursive;
+            font-family: 'Spline Sans', sans-serif;
+            background-color: rgb(255, 255, 255);
+            font-weight: 400, 700;
+        }
+        
+        nav {
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            height: 10vh;
+            border-bottom: 2px solid rgb(245, 235, 235);
+        }
+        
+        nav div {
+            display: flex;
+            align-items: center;
+            flex: 50%;
+        }
+        
+        nav div.nav-left {
+            padding-left: 90px;
+            /* border: 2px solid black; */
+            text-decoration: none;
+        }
+        
+        nav div.nav-left a {
+            text-decoration: none;
+        }
+        
+        nav div.nav-right {
+            padding-right: 25px;
+            display: flex;
+            justify-content: flex-end;
+            /* border: 2px solid black; */
+        }
+        
+        nav ul {
+            list-style: none;
+            margin-left: 10px;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-left: 10px;
+        }
+        
+        nav ul li a {
+            color: hsl(0, 2%, 54%);
+            text-decoration: none;
+            font-size: 15px;
+            padding-left: 0px;
+        }
+        
+        nav ul li a:hover {
+            color: orange;
+            text-decoration: underline;
+        }
+        
+        nav .nav-right a {
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        
+        nav .nav-right a img {
+            width: 15px;
+            height: 25px;
+        }
+        
+        nav .nav-right a img.frame1 {
+            width: 25px;
+            height: 25px;
+            background-color: rgb(252, 252, 252);
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 100%;
+        }
+        
+        nav .nav-right a img.frame {
+            width: 35px;
+            height: 35px;
+            background-color: rgb(252, 252, 252);
+            border: 2px solid hsl(26, 100%, 55%);
+            border-radius: 100%;
+        }
+        
+        .container {
+            height: 80vh;
+            display: flex;
+            font-family: 'Open Sans', 'sans-serif,Lobster', 'cursive';
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 0;
+        }
+        
+        .container .section {
+            display: flex;
+            width: 100%;
+        }
+        
+        .container .section .menu-left {
+            display: flex;
+            width: 40%;
+            height: 430px;
+        }
+        
+        .container .section .menu-right {
+            width: 60%;
+            margin: 45px 0 0 90px;
+            /* margin-left: 90px; */
+        }
+        
+        .section .display {
+            width: 85%;
+            margin-left: 80px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .display .galery {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .display .galery img {
+            width: 100%;
+            height: 65vh;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        
+        .display .galery1 {
+            display: flex;
+            justify-content: center;
+            padding: 0 10px;
+        }
+        
+        .display .galery1 img {
+            width: 89px;
+            margin: 0 10px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+        }
+        
+        .menu-right .tittle {
+            color: hsl(26, 100%, 55%);
+        }
+        
+        .menu-right .tittle1 {
+            color: #000;
+        }
+        
+        .menu-right .tittle2 {
+            color: hsl(0, 2%, 54%);
+            font-size: 16px;
+        }
+        
+        .menu-right .discount {
+            display: flex;
+            padding: 0 0 10px 0;
+        }
+        
+        .menu-right .discount h4 {
+            font-size: 2em;
+        }
+        
+        .menu-right .discount h4 {
+            font-size: 2em;
+        }
+        
+        .menu-right .discount .persen {
+            background-color: hsl(25, 100%, 94%);
+            color: hsl(26, 100%, 55%);
+            font-size: 15px;
+            align-items: center;
+            border-radius: 5px;
+        }
+        
+        .menu-right .price {
+            color: hsl(0, 2%, 54%);
+            text-decoration: line-through;
+        }
+        
+        .menu-right .add-chart {
+            display: flex;
+            margin-top: 50px;
+        }
+        
+        .menu-right .add-chart .total-add {
+            width: 25%;
+            height: 7vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 20px;
+            background-color: gainsboro;
+            border-radius: 5px;
+        }
+        
+        .menu-right .add-chart .total-add span {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        /* .menu-right .add-chart button {
+            background-color: transparent;
+        } */
+        
+        .total-add button {
+            align-items: center;
+            background-color: transparent;
+            border: transparent;
+            width: 50px;
+        }
+        
+        .total-add button:hover {
+            background-color: hsl(223, 64%, 98%);
+        }
+        
+        .add {
+            margin-right: 20px;
+            margin-left: 10px;
+            align-items: center;
+            justify-content: start;
+        }
+        
+        .add1 {
+            align-items: center;
+            justify-content: flex-end;
+            margin-left: 20px;
+        }
+        
+        .add-to-chart {
+            display: flex;
+            background-color: hsl(26, 100%, 55%);
+            color: white;
+            margin-left: 20px;
+            width: 27%;
+            height: 7vh;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: bold;
+            border: hsl(26, 100%, 55%);
+        }
+        
+        .add-to-chart svg {
+            margin-right: 5px;
+            width: 25px;
+        }
+        
+        .add-to-chart button {
+            background-color: transparent;
+        }
