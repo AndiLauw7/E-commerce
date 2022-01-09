@@ -202,11 +202,13 @@
             padding-right: 20px;
             background-color: gainsboro;
             border-radius: 5px;
+            cursor: pointer;
         }
         
         .menu-right .add-chart .total-add span {
             font-size: 20px;
             font-weight: bold;
+            cursor: pointer;
         }
         /* .menu-right .add-chart button {
             background-color: transparent;
@@ -218,22 +220,23 @@
             border: transparent;
             width: 50px;
         }
-        
-        .total-add button:hover {
+        /* .total-add button:hover {
             background-color: hsl(223, 64%, 98%);
-        }
+        } */
         
         .add {
             margin-right: 20px;
             margin-left: 10px;
             align-items: center;
             justify-content: start;
+            cursor: pointer;
         }
         
         .add1 {
             align-items: center;
             justify-content: flex-end;
             margin-left: 20px;
+            cursor: pointer;
         }
         
         .add-to-chart {
