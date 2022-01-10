@@ -8,7 +8,7 @@
             font-family: 'Island Moments', cursive;
             font-family: 'Mali', cursive;
             font-family: 'Spline Sans', sans-serif;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(5, 4, 4);
             font-weight: 400, 700;
         }
         
@@ -264,7 +264,7 @@
             background-color: transparent;
         }
         
-        @media only screen and(max-width: 600px) {
+        @media screen and(max-width: 600px) {
             body {
                 background-color: red;
             }
