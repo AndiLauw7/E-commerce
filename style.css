@@ -113,14 +113,13 @@
             width: 40%;
             height: 100%;
             align-items: center;
-            justify-content: center;
         }
         
         .container .section .menu-right {
-            width: 60%;
+            width: 50%;
             flex: 1;
             /* margin: 45px 0 0 90px; */
-            margin-left: 90px;
+            margin-left: 50px;
         }
         
         .galery img {
@@ -274,17 +273,18 @@
             }
             .container .section {
                 display: block;
-                width: 100%;
-                height: 100%;
             }
             .container .section .menu-left {
-                width: 100%;
-                justify-content: center;
+                display: block;
+                margin: 0 auto;
+            }
+            .container .section .menu-left .galery1 img {
+                display: flex;
+                margin: 0 2.5px;
             }
             .container .section .menu-right {
                 padding-top: 20px;
                 display: block;
-                width: 100%;
                 justify-content: center;
                 align-items: center;
                 padding-bottom: 10px;
