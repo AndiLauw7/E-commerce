@@ -263,3 +263,9 @@
         .add-to-chart button {
             background-color: transparent;
         }
+        
+        @media only screen and(max-width: 600px) {
+            body {
+                background-color: red;
+            }
+        }
