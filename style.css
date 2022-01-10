@@ -266,6 +266,8 @@
             
             @media screen and (max-width: 600px) {
                 body {
+                    margin: 0;
+                    padding: 0;
                     display: block;
                     background-color: gold;
                 }
@@ -275,7 +277,17 @@
                 .container {
                     display: block;
                 }
+                .container .section {
+                    display: block;
+                }
                 .container .section .menu-left {
-                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+                .container .menu-left {
+                    padding: 0;
+                }
+                .container .menu-right {
+                    display: block;
                 }
             }
